@@ -51,6 +51,21 @@ link -https://nodejs.org/pt-br
 
 ou o bun link -https://bun.sh/
 
+# Para gera a chave e migra o banco de dados
+
+php artisan key:generate gerar a chave do servidor 
+
+php artisan migrate para migra para o banco de dados
+
+# Caso que você abaixar no git hub 
+
+Primeiro da clone do repositorio e abre o arquivo no VS Code.
+
+Depois dar cd no aquivo que deseja abrir (Mais em caso que estiver muito arquivo)
+copie o .env.example e renomeia para .env 
+user o composer  installer ou composer i 
+ 
+
 # Para inicia o desemvolvimento
 
 - para inicia o desemvolvimento parta digita o comando: laravel new example-app
@@ -60,3 +75,8 @@ ou o bun link -https://bun.sh/
 Para entra na pasta do projeto digita o comando: cd example-app
 o npm install && npm run build server para instalar e rodar o node_modules
 e o composer run dev para iniciar o servidor local
+
+
+
+
+
