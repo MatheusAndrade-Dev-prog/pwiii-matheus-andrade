@@ -13,6 +13,11 @@ return new class extends Migration
     {
         Schema::create('products', function (Blueprint $table) {
             $table->id();
+            $table ->text('tituo');
+            $table ->text('author');
+            $table ->text('isbn');
+            $table ->int('numero inteiro');
+            $table ->bool('is_available');
             $table->timestamps();
         });
     }
